@@ -12,7 +12,7 @@ Ping Module for MagicMirror<sup>2</sup>
 
     ```
     {
-        module: 'MMM-ip',
+        module: 'MMM-ping',
         position: 'bottom_right',
         config: {
             hosts: [
