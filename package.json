@@ -1,0 +1,24 @@
+{
+  "name": "mmm-ping",
+  "version": "1.0.0",
+  "description": "\u0016Ping Module for MagicMirror2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fewieden/MMM-ping.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "ping",
+    "online",
+    "offline"
+  ],
+  "author": "fewieden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fewieden/MMM-ping/issues"
+  },
+  "homepage": "https://github.com/fewieden/MMM-ping#readme",
+  "dependencies": {
+    "ping": "^0.1.10"
+  }
+}
