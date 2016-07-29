@@ -3,7 +3,8 @@ Module.register("MMM-ping",{
         colored: false,
         display: 'both',
         hosts: [],
-        updateInterval: 5
+        updateInterval: 5,
+        font: 'medium'
     },
 
     start: function() {
@@ -21,6 +22,7 @@ Module.register("MMM-ping",{
 
     getDom: function() {
         var wrapper = document.createElement("div");
+        wrapper.classList.add(this.config.font);
         wrapper.style.textAlign = 'left';
         var hosts = Object.keys(this.status);
         if(hosts.length > 0){

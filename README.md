@@ -32,3 +32,4 @@ Ping Module for MagicMirror<sup>2</sup>
 | `display` | 'both' | what should be displayed 'online', 'offline' or 'both' |
 | `hosts` | [] | addresses to ping |
 | `updateInterval` | 5 | how often the module should ping the hosts in minutes |
+| `font` | 'medium' | font size 'xsmall', 'small', 'medium', 'large' or 'xlarge' |
