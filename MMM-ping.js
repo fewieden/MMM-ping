@@ -13,6 +13,7 @@ Module.register('MMM-ping', {
         colored: false,
         display: 'both',
         hosts: [],
+		hostnames: [],    //new
         updateInterval: 5,
         font: 'medium'
     },
@@ -35,6 +36,7 @@ Module.register('MMM-ping', {
         wrapper.classList.add(this.config.font);
         wrapper.style.textAlign = 'left';
         const hosts = Object.keys(this.status);
+		const hostnames = Object.keys(this.status); //new
         if (hosts.length > 0) {
             for (let i = 0; i < hosts.length; i += 1) {
                 const isOnline = this.status[hosts[i]];
@@ -47,7 +49,7 @@ Module.register('MMM-ping', {
                         span.style.color = isOnline ? 'green' : 'red';
                     }
                     const host = document.createElement('span');
-                    host.innerHTML = hosts[i];
+                    host.innerHTML = hostnames[i];   //changed
                     div.appendChild(span);
                     div.appendChild(host);
                     wrapper.appendChild(div);
