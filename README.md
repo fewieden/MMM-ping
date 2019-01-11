@@ -1,6 +1,7 @@
 # MMM-ping [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/fewieden/MMM-ping/master/LICENSE) [![Build Status](https://travis-ci.org/fewieden/MMM-ping.svg?branch=master)](https://travis-ci.org/fewieden/MMM-ping) [![Code Climate](https://codeclimate.com/github/fewieden/MMM-ping/badges/gpa.svg?style=flat)](https://codeclimate.com/github/fewieden/MMM-ping) [![Known Vulnerabilities](https://snyk.io/test/github/fewieden/mmm-ping/badge.svg)](https://snyk.io/test/github/fewieden/mmm-ping)
 
 Ping Module for MagicMirror<sup>2</sup>
+this fork replaces the host IP or URL with any string so you can name the hosts for the output
 
 ## Example
 
