@@ -24,7 +24,11 @@ Ping Module for MagicMirror<sup>2</sup>
         config: {
             hosts: [
                 'www.github.com',
-                'forum.magicmirror.builders'
+                '192.168.1.1'
+            ]
+            hostnames: [
+                'Github',
+                'Router'
             ]
         }
     }
