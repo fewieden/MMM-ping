@@ -36,7 +36,7 @@ Module.register('MMM-ping', {
         wrapper.classList.add(this.config.font);
         wrapper.style.textAlign = 'left';
         const hosts = Object.keys(this.status);
-		const hostnames = Object.keys(this.status); //new
+		const hostnames = this.config.hostnames; //new
         if (hosts.length > 0) {
             for (let i = 0; i < hosts.length; i += 1) {
                 const isOnline = this.status[hosts[i]];
