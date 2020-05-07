@@ -1,14 +1,14 @@
 .MMM-ping .list,
 .MMM-ping-modal .list {
-  text-align: left;
+    text-align: left;
 }
 
 .MMM-ping div.colored.green,
 .MMM-ping-modal div.colored.green {
-  color: green;
+    color: green;
 }
 
 .MMM-ping div.colored.red,
 .MMM-ping-modal div.colored.red {
-  color: red;
+    color: red;
 }
