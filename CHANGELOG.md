@@ -1,5 +1,11 @@
 # MMM-ping Changelog
 
+## [2.0.1]
+
+### Added
+
+* Config option `transitionTime`
+
 ## [2.0.0]
 
 ### Added

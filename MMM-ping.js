@@ -43,13 +43,15 @@ Module.register('MMM-ping', {
      * @property {string[]} hosts - List of hosts to ping.
      * @property {int} updateInterval - Speed of update.
      * @property {string} font - Class name for font size.
+     * @property {number} transitionTime - Time the transition for a new update in the DOM should take.
      */
     defaults: {
         colored: false,
         display: 'both',
         hosts: [],
         updateInterval: 5,
-        font: 'medium'
+        font: 'medium',
+        transitionTime: 300
     },
 
     /**
@@ -156,7 +158,7 @@ Module.register('MMM-ping', {
     socketNotificationReceived(notification, payload) {
         if (notification === 'STATUS_UPDATE') {
             this.status = payload;
-            this.updateDom(300);
+            this.updateDom(this.config.transitionTime);
         }
     },
 
