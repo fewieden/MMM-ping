@@ -30,6 +30,6 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
-    "ping": "^0.2.3"
+    "ping": "^0.4.4"
   }
 }
